@@ -100,9 +100,6 @@ export function Menu() {
         </NavLink>
       </nav>
 
-      <footer className="absolute bottom-0 p-2 flex justify-center text-custom-white">
-        <span>Desenvolvimento Web 2</span>
-      </footer>
     </aside>
   );
 }

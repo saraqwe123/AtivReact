@@ -6,13 +6,17 @@ export function Contador() {
     const estilo = "bg-custom-gray p-10 gap-4 m-5 rounded-full text-4xl"
     const estilo2 = "bg-custom-gray p-5 gap-4 m-5 rounded-full text-2xl"
     const [num, setNum] = useState(0)
+    function soma5(e) {
+
+    }
+
     return (
         <Pagina titulo="Contador" subtitulo="Contador">
             <div className="w-full h-full flex flex-col justify-center items-center">
                 <span>
-                    <button className={estilo}><IconPlus/></button>
+                    <button className={estilo} id="1"><IconPlus/></button>
    
-                    <span className="text-7xl">{num}</span>
+                    <span className="text-7xl" id="2">{num}</span>
 
                     <button className={estilo}><IconMinus/></button>
                 </span>

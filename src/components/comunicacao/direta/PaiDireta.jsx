@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { FilhoDireta } from "./FilhoDireta"
 
+
 export function PaiDireta() {
 
     const [nome, setNome] = useState("")
@@ -12,7 +13,7 @@ export function PaiDireta() {
                 <button className="botao" onClick={() => setNome("Sara mozao")}>Sara mozao</button>
                 <button className="botao" onClick={() => setNome("Pedro")}>Pedro</button>
             </div>
-            <FilhoDireta texto = {nome}/>
+            <span className="text-4xl p-5">{nome}</span>
 
         </div>
     )
